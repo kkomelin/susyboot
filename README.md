@@ -1,5 +1,5 @@
 # Susyboot
-Bootstrap-like grid powered by Susy.
+Susy-powered Bootstrap grid replacement
 
 Goals
 ---
