@@ -57,10 +57,6 @@
 .row {
   margin: 0 -15px;
 }
-/* line 26, ../scss/susyboot.scss */
-.row > div {
-  background-color: rgba(102, 102, 255, 0.25);
-}
 
 /* line 4, ../scss/_mixins.scss */
 .col-xs-1 {
