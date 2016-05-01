@@ -11,6 +11,10 @@ Features
 
 - Classes you know and like .container, .row, .col-sm-{n}, .col-md-{n}, .col-lg-{n}
 
+Example
+---
+See index.html
+
 Todo:
 ---
 - Fluid grid (.container-fluid)
