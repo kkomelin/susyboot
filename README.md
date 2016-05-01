@@ -21,5 +21,5 @@ See index.html
 Todo:
 ---
 - Fluid grid (.container-fluid)
-- Offsets
+- Offsets, pull, push
 - Pack it into a gem

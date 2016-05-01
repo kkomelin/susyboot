@@ -57,6 +57,16 @@
 .row {
   margin: 0 -15px;
 }
+/* line 26, ../scss/susyboot.scss */
+.row > div {
+  background-color: rgba(102, 102, 255, 0.25);
+}
+/* line 12, ../../../../home/kon/.rvm/gems/ruby-2.3.0/gems/susy-2.2.12/sass/susy/output/support/_clearfix.scss */
+.row:after {
+  content: " ";
+  display: block;
+  clear: both;
+}
 
 /* line 4, ../scss/_mixins.scss */
 .col-xs-1 {
@@ -152,6 +162,66 @@
   float: left;
   margin-left: 0.83333%;
   margin-right: 0.83333%;
+}
+
+/* line 13, ../scss/_mixins.scss */
+.col-xs-offset-1 {
+  margin-left: 9.16667%;
+}
+
+/* line 13, ../scss/_mixins.scss */
+.col-xs-offset-2 {
+  margin-left: 17.5%;
+}
+
+/* line 13, ../scss/_mixins.scss */
+.col-xs-offset-3 {
+  margin-left: 25.83333%;
+}
+
+/* line 13, ../scss/_mixins.scss */
+.col-xs-offset-4 {
+  margin-left: 34.16667%;
+}
+
+/* line 13, ../scss/_mixins.scss */
+.col-xs-offset-5 {
+  margin-left: 42.5%;
+}
+
+/* line 13, ../scss/_mixins.scss */
+.col-xs-offset-6 {
+  margin-left: 50.83333%;
+}
+
+/* line 13, ../scss/_mixins.scss */
+.col-xs-offset-7 {
+  margin-left: 59.16667%;
+}
+
+/* line 13, ../scss/_mixins.scss */
+.col-xs-offset-8 {
+  margin-left: 67.5%;
+}
+
+/* line 13, ../scss/_mixins.scss */
+.col-xs-offset-9 {
+  margin-left: 75.83333%;
+}
+
+/* line 13, ../scss/_mixins.scss */
+.col-xs-offset-10 {
+  margin-left: 84.16667%;
+}
+
+/* line 13, ../scss/_mixins.scss */
+.col-xs-offset-11 {
+  margin-left: 92.5%;
+}
+
+/* line 13, ../scss/_mixins.scss */
+.col-xs-offset-12 {
+  margin-left: 100.83333%;
 }
 
 @media screen and (min-width: 768px) {
@@ -250,6 +320,66 @@
     margin-left: 0.83333%;
     margin-right: 0.83333%;
   }
+
+  /* line 13, ../scss/_mixins.scss */
+  .col-sm-offset-1 {
+    margin-left: 9.16667%;
+  }
+
+  /* line 13, ../scss/_mixins.scss */
+  .col-sm-offset-2 {
+    margin-left: 17.5%;
+  }
+
+  /* line 13, ../scss/_mixins.scss */
+  .col-sm-offset-3 {
+    margin-left: 25.83333%;
+  }
+
+  /* line 13, ../scss/_mixins.scss */
+  .col-sm-offset-4 {
+    margin-left: 34.16667%;
+  }
+
+  /* line 13, ../scss/_mixins.scss */
+  .col-sm-offset-5 {
+    margin-left: 42.5%;
+  }
+
+  /* line 13, ../scss/_mixins.scss */
+  .col-sm-offset-6 {
+    margin-left: 50.83333%;
+  }
+
+  /* line 13, ../scss/_mixins.scss */
+  .col-sm-offset-7 {
+    margin-left: 59.16667%;
+  }
+
+  /* line 13, ../scss/_mixins.scss */
+  .col-sm-offset-8 {
+    margin-left: 67.5%;
+  }
+
+  /* line 13, ../scss/_mixins.scss */
+  .col-sm-offset-9 {
+    margin-left: 75.83333%;
+  }
+
+  /* line 13, ../scss/_mixins.scss */
+  .col-sm-offset-10 {
+    margin-left: 84.16667%;
+  }
+
+  /* line 13, ../scss/_mixins.scss */
+  .col-sm-offset-11 {
+    margin-left: 92.5%;
+  }
+
+  /* line 13, ../scss/_mixins.scss */
+  .col-sm-offset-12 {
+    margin-left: 100.83333%;
+  }
 }
 @media screen and (min-width: 992px) {
   /* line 4, ../scss/_mixins.scss */
@@ -347,6 +477,66 @@
     margin-left: 0.83333%;
     margin-right: 0.83333%;
   }
+
+  /* line 13, ../scss/_mixins.scss */
+  .col-md-offset-1 {
+    margin-left: 9.16667%;
+  }
+
+  /* line 13, ../scss/_mixins.scss */
+  .col-md-offset-2 {
+    margin-left: 17.5%;
+  }
+
+  /* line 13, ../scss/_mixins.scss */
+  .col-md-offset-3 {
+    margin-left: 25.83333%;
+  }
+
+  /* line 13, ../scss/_mixins.scss */
+  .col-md-offset-4 {
+    margin-left: 34.16667%;
+  }
+
+  /* line 13, ../scss/_mixins.scss */
+  .col-md-offset-5 {
+    margin-left: 42.5%;
+  }
+
+  /* line 13, ../scss/_mixins.scss */
+  .col-md-offset-6 {
+    margin-left: 50.83333%;
+  }
+
+  /* line 13, ../scss/_mixins.scss */
+  .col-md-offset-7 {
+    margin-left: 59.16667%;
+  }
+
+  /* line 13, ../scss/_mixins.scss */
+  .col-md-offset-8 {
+    margin-left: 67.5%;
+  }
+
+  /* line 13, ../scss/_mixins.scss */
+  .col-md-offset-9 {
+    margin-left: 75.83333%;
+  }
+
+  /* line 13, ../scss/_mixins.scss */
+  .col-md-offset-10 {
+    margin-left: 84.16667%;
+  }
+
+  /* line 13, ../scss/_mixins.scss */
+  .col-md-offset-11 {
+    margin-left: 92.5%;
+  }
+
+  /* line 13, ../scss/_mixins.scss */
+  .col-md-offset-12 {
+    margin-left: 100.83333%;
+  }
 }
 @media screen and (min-width: 1200px) {
   /* line 4, ../scss/_mixins.scss */
@@ -443,5 +633,65 @@
     float: left;
     margin-left: 0.83333%;
     margin-right: 0.83333%;
+  }
+
+  /* line 13, ../scss/_mixins.scss */
+  .col-lg-offset-1 {
+    margin-left: 9.16667%;
+  }
+
+  /* line 13, ../scss/_mixins.scss */
+  .col-lg-offset-2 {
+    margin-left: 17.5%;
+  }
+
+  /* line 13, ../scss/_mixins.scss */
+  .col-lg-offset-3 {
+    margin-left: 25.83333%;
+  }
+
+  /* line 13, ../scss/_mixins.scss */
+  .col-lg-offset-4 {
+    margin-left: 34.16667%;
+  }
+
+  /* line 13, ../scss/_mixins.scss */
+  .col-lg-offset-5 {
+    margin-left: 42.5%;
+  }
+
+  /* line 13, ../scss/_mixins.scss */
+  .col-lg-offset-6 {
+    margin-left: 50.83333%;
+  }
+
+  /* line 13, ../scss/_mixins.scss */
+  .col-lg-offset-7 {
+    margin-left: 59.16667%;
+  }
+
+  /* line 13, ../scss/_mixins.scss */
+  .col-lg-offset-8 {
+    margin-left: 67.5%;
+  }
+
+  /* line 13, ../scss/_mixins.scss */
+  .col-lg-offset-9 {
+    margin-left: 75.83333%;
+  }
+
+  /* line 13, ../scss/_mixins.scss */
+  .col-lg-offset-10 {
+    margin-left: 84.16667%;
+  }
+
+  /* line 13, ../scss/_mixins.scss */
+  .col-lg-offset-11 {
+    margin-left: 92.5%;
+  }
+
+  /* line 13, ../scss/_mixins.scss */
+  .col-lg-offset-12 {
+    margin-left: 100.83333%;
   }
 }

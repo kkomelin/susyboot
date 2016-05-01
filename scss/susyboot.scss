@@ -27,22 +27,32 @@
       background-color: rgba(#66f, .25);
     }
   }
+  @include susy-clearfix;
 }
 
 // Column classes for extra small screens and up.
 @include add-column-classes('xs', $grid-columns);
+// Offset classes for extra small screens and up.
+@include add-offset-classes('xs', $grid-columns);
 
-// Column classes for small screens and up.
+
 @media screen and (min-width: $screen-sm-min) {
+  // Column classes for small screens and up.
   @include add-column-classes('sm', $grid-columns);
+  // Offset classes for small screens and up.
+  @include add-offset-classes('sm', $grid-columns);
 }
 
-// Column classes for middle screens and up.
 @media screen and (min-width: $screen-md-min) {
+  // Column classes for middle screens and up.
   @include add-column-classes('md', $grid-columns);
+  // Offset classes for middle screens and up.
+  @include add-offset-classes('md', $grid-columns);
 }
 
-// Column classes for large screens and up.
 @media screen and (min-width: $screen-lg-min) {
+  // Column classes for large screens and up.
   @include add-column-classes('lg', $grid-columns);
+  // Offset classes for large screens and up.
+  @include add-offset-classes('lg', $grid-columns);
 }
