@@ -1,4 +1,9 @@
 $susy: (
         columns: $grid-columns,
         gutter-position: split,
+        /* Tells Susy to use border-box */
+        global-box-sizing: border-box
 );
+
+/* Makes border-box properties */
+@include border-box-sizing;

@@ -4,10 +4,33 @@
     <meta charset="UTF-8">
     <title>Susyboot Grid Usage Example</title>
     <link href="css/susyboot.css" type="text/css" rel="stylesheet" media="all" />
+    <style>
+        body [class^=col-] {
+            padding-top: 10px;
+            padding-bottom: 10px;
+        }
+    </style>
 </head>
 <body>
 
+<h1>Fixed container</h1>
 <div class="container">
+    <h2>Example 1: Just columns</h2>
+    <div class="row">
+        <div class="col-xs-3 col-sm-4 col-md-5 col-lg-6">.col-xs-3 .col-sm-4 .col-md-5 .col-lg-6</div>
+        <div class="col-xs-3 col-sm-4 col-md-5 col-lg-6">.col-xs-3 .col-sm-4 .col-md-5 .col-lg-6</div>
+        <div class="col-xs-3 col-sm-4 col-md-5 col-lg-6">.col-xs-3 .col-sm-4 .l-md-5 .col-lg-6</div>
+        <div class="col-xs-3 col-sm-4 col-md-5 col-lg-6">.col-xs-3 .col-sm-4 .col-md-5 .col-lg-6</div>
+    </div>
+    <h2>Example 2: Offset</h2>
+    <div class="row">
+        <div class="col-xs-3">.col-xs-3</div>
+        <div class="col-xs-3 col-xs-offset-6">.col-xs-3 .col-xs-offset-6</div>
+    </div>
+</div>
+
+<h1>Fluid container</h1>
+<div class="container-fluid">
     <h2>Example 1: Just columns</h2>
     <div class="row">
         <div class="col-xs-3 col-sm-4 col-md-5 col-lg-6">1</div>

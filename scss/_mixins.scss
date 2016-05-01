@@ -1,8 +1,17 @@
+// Set background and border to a block in order to debug the grid.
+@mixin debug-cell() {
+  background-color: rgba(86,61,124,.15);
+  border: 1px solid rgba(86,61,124,.2);
+}
+
 // Generate column classes, for example col-md-[n].
 @mixin add-column-classes($class, $grid-columns) {
   @for $i from 1 through $grid-columns {
     .col-#{$class}-#{$i} {
       @include span($i);
+      min-height: 1px;
+      padding-right: 15px;
+      padding-left: 15px;
     }
   }
 }

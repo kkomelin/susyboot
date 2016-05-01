@@ -18,13 +18,18 @@
   }
 }
 
+// Fluid container.
+.container-fluid {
+  @include container();
+}
+
 // Row class.
 .row {
   margin: 0 $grid-gutter-width * -1 / 2;
 
   @if $debug == true {
     & > div {
-      background-color: rgba(#66f, .25);
+      @include debug-cell();
     }
   }
   @include susy-clearfix;

@@ -10,7 +10,7 @@ Features
 ---
 
 - The classes you know and like: 
-  - .container 
+  - .container, .container-fluid
   - .row 
   - .col-xs-{n}, .col-sm-{n}, .col-md-{n}, .col-lg-{n}
   - .col-xs-offset-{n}, .col-sm-offset-{n}, .col-md-offset-{n}, .col-lg-offset-{n}
@@ -21,6 +21,5 @@ See index.html
 
 Todo:
 ---
-- Fluid grid (.container-fluid)
 - pull, push
 - Pack it into a gem
