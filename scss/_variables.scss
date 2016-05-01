@@ -4,6 +4,8 @@ $grid-columns:              12 !default;
 $grid-gutter-width:         30px !default;
 
 //== Media queries breakpoints.
+//
+//## Define the breakpoints at which your layout will change, adapting to different screen sizes.
 
 // Small screen / tablet.
 $screen-sm-min:              768px !default;
@@ -13,6 +15,22 @@ $screen-md-min:              992px !default;
 
 // Large screen / wide desktop.
 $screen-lg-min:              1200px !default;
+
+//== Container sizes
+//
+//## Define the maximum width of `.container` for different screen sizes.
+
+// Small screen / tablet
+//** For `$screen-sm-min` and up.
+$container-sm:                 (720px + $grid-gutter-width) !default;;
+
+// Medium screen / desktop
+//** For `$screen-md-min` and up.
+$container-md:                 (940px + $grid-gutter-width) !default;
+
+// Large screen / wide desktop
+//** For `$screen-lg-min` and up.
+$container-lg:                 (1140px + $grid-gutter-width) !default;
 
 // Debug.
 $debug: true !default;

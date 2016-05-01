@@ -5,14 +5,22 @@
 // Container class.
 .container {
   @include container();
+
+  @media (min-width: $screen-sm-min) {
+    @include container($container-sm)
+  }
+  @media (min-width: $screen-md-min) {
+    @include container($container-md)
+  }
+  @media (min-width: $screen-lg-min) {
+    @include container($container-lg)
+  }
 }
 
 // Row class.
 .row {
   margin: 0 $grid-gutter-width * -1 / 2;
-}
 
-.row {
   @if $debug {
     & > div {
       background-color: rgba(#66f, .25);

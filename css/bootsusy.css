@@ -10,18 +10,59 @@
   display: block;
   clear: both;
 }
+@media (min-width: 768px) {
+  /* line 6, ../scss/bootsusy.scss */
+  .container {
+    max-width: 750px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  /* line 12, ../../../../home/kon/.rvm/gems/ruby-2.3.0/gems/susy-2.2.12/sass/susy/output/support/_clearfix.scss */
+  .container:after {
+    content: " ";
+    display: block;
+    clear: both;
+  }
+}
+@media (min-width: 992px) {
+  /* line 6, ../scss/bootsusy.scss */
+  .container {
+    max-width: 970px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  /* line 12, ../../../../home/kon/.rvm/gems/ruby-2.3.0/gems/susy-2.2.12/sass/susy/output/support/_clearfix.scss */
+  .container:after {
+    content: " ";
+    display: block;
+    clear: both;
+  }
+}
+@media (min-width: 1200px) {
+  /* line 6, ../scss/bootsusy.scss */
+  .container {
+    max-width: 1170px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  /* line 12, ../../../../home/kon/.rvm/gems/ruby-2.3.0/gems/susy-2.2.12/sass/susy/output/support/_clearfix.scss */
+  .container:after {
+    content: " ";
+    display: block;
+    clear: both;
+  }
+}
 
-/* line 11, ../scss/bootsusy.scss */
+/* line 21, ../scss/bootsusy.scss */
 .row {
   margin: 0 -15px;
 }
-
-/* line 17, ../scss/bootsusy.scss */
+/* line 25, ../scss/bootsusy.scss */
 .row > div {
   background-color: rgba(102, 102, 255, 0.25);
 }
 
-/* line 25, ../scss/bootsusy.scss */
+/* line 33, ../scss/bootsusy.scss */
 .col-sm-1 {
   width: 6.66667%;
   float: left;
@@ -29,7 +70,7 @@
   margin-right: 0.83333%;
 }
 
-/* line 25, ../scss/bootsusy.scss */
+/* line 33, ../scss/bootsusy.scss */
 .col-sm-2 {
   width: 15%;
   float: left;
@@ -37,7 +78,7 @@
   margin-right: 0.83333%;
 }
 
-/* line 25, ../scss/bootsusy.scss */
+/* line 33, ../scss/bootsusy.scss */
 .col-sm-3 {
   width: 23.33333%;
   float: left;
@@ -45,7 +86,7 @@
   margin-right: 0.83333%;
 }
 
-/* line 25, ../scss/bootsusy.scss */
+/* line 33, ../scss/bootsusy.scss */
 .col-sm-4 {
   width: 31.66667%;
   float: left;
@@ -53,7 +94,7 @@
   margin-right: 0.83333%;
 }
 
-/* line 25, ../scss/bootsusy.scss */
+/* line 33, ../scss/bootsusy.scss */
 .col-sm-5 {
   width: 40%;
   float: left;
@@ -61,7 +102,7 @@
   margin-right: 0.83333%;
 }
 
-/* line 25, ../scss/bootsusy.scss */
+/* line 33, ../scss/bootsusy.scss */
 .col-sm-6 {
   width: 48.33333%;
   float: left;
@@ -69,7 +110,7 @@
   margin-right: 0.83333%;
 }
 
-/* line 25, ../scss/bootsusy.scss */
+/* line 33, ../scss/bootsusy.scss */
 .col-sm-7 {
   width: 56.66667%;
   float: left;
@@ -77,7 +118,7 @@
   margin-right: 0.83333%;
 }
 
-/* line 25, ../scss/bootsusy.scss */
+/* line 33, ../scss/bootsusy.scss */
 .col-sm-8 {
   width: 65%;
   float: left;
@@ -85,7 +126,7 @@
   margin-right: 0.83333%;
 }
 
-/* line 25, ../scss/bootsusy.scss */
+/* line 33, ../scss/bootsusy.scss */
 .col-sm-9 {
   width: 73.33333%;
   float: left;
@@ -93,7 +134,7 @@
   margin-right: 0.83333%;
 }
 
-/* line 25, ../scss/bootsusy.scss */
+/* line 33, ../scss/bootsusy.scss */
 .col-sm-10 {
   width: 81.66667%;
   float: left;
@@ -101,7 +142,7 @@
   margin-right: 0.83333%;
 }
 
-/* line 25, ../scss/bootsusy.scss */
+/* line 33, ../scss/bootsusy.scss */
 .col-sm-11 {
   width: 90%;
   float: left;
@@ -109,7 +150,7 @@
   margin-right: 0.83333%;
 }
 
-/* line 25, ../scss/bootsusy.scss */
+/* line 33, ../scss/bootsusy.scss */
 .col-sm-12 {
   width: 98.33333%;
   float: left;
@@ -118,7 +159,7 @@
 }
 
 @media screen and (min-width: 992px) {
-  /* line 33, ../scss/bootsusy.scss */
+  /* line 41, ../scss/bootsusy.scss */
   .col-md-1 {
     width: 6.66667%;
     float: left;
@@ -126,7 +167,7 @@
     margin-right: 0.83333%;
   }
 
-  /* line 33, ../scss/bootsusy.scss */
+  /* line 41, ../scss/bootsusy.scss */
   .col-md-2 {
     width: 15%;
     float: left;
@@ -134,7 +175,7 @@
     margin-right: 0.83333%;
   }
 
-  /* line 33, ../scss/bootsusy.scss */
+  /* line 41, ../scss/bootsusy.scss */
   .col-md-3 {
     width: 23.33333%;
     float: left;
@@ -142,7 +183,7 @@
     margin-right: 0.83333%;
   }
 
-  /* line 33, ../scss/bootsusy.scss */
+  /* line 41, ../scss/bootsusy.scss */
   .col-md-4 {
     width: 31.66667%;
     float: left;
@@ -150,7 +191,7 @@
     margin-right: 0.83333%;
   }
 
-  /* line 33, ../scss/bootsusy.scss */
+  /* line 41, ../scss/bootsusy.scss */
   .col-md-5 {
     width: 40%;
     float: left;
@@ -158,7 +199,7 @@
     margin-right: 0.83333%;
   }
 
-  /* line 33, ../scss/bootsusy.scss */
+  /* line 41, ../scss/bootsusy.scss */
   .col-md-6 {
     width: 48.33333%;
     float: left;
@@ -166,7 +207,7 @@
     margin-right: 0.83333%;
   }
 
-  /* line 33, ../scss/bootsusy.scss */
+  /* line 41, ../scss/bootsusy.scss */
   .col-md-7 {
     width: 56.66667%;
     float: left;
@@ -174,7 +215,7 @@
     margin-right: 0.83333%;
   }
 
-  /* line 33, ../scss/bootsusy.scss */
+  /* line 41, ../scss/bootsusy.scss */
   .col-md-8 {
     width: 65%;
     float: left;
@@ -182,7 +223,7 @@
     margin-right: 0.83333%;
   }
 
-  /* line 33, ../scss/bootsusy.scss */
+  /* line 41, ../scss/bootsusy.scss */
   .col-md-9 {
     width: 73.33333%;
     float: left;
@@ -190,7 +231,7 @@
     margin-right: 0.83333%;
   }
 
-  /* line 33, ../scss/bootsusy.scss */
+  /* line 41, ../scss/bootsusy.scss */
   .col-md-10 {
     width: 81.66667%;
     float: left;
@@ -198,7 +239,7 @@
     margin-right: 0.83333%;
   }
 
-  /* line 33, ../scss/bootsusy.scss */
+  /* line 41, ../scss/bootsusy.scss */
   .col-md-11 {
     width: 90%;
     float: left;
@@ -206,7 +247,7 @@
     margin-right: 0.83333%;
   }
 
-  /* line 33, ../scss/bootsusy.scss */
+  /* line 41, ../scss/bootsusy.scss */
   .col-md-12 {
     width: 98.33333%;
     float: left;
@@ -215,7 +256,7 @@
   }
 }
 @media screen and (min-width: 1200px) {
-  /* line 42, ../scss/bootsusy.scss */
+  /* line 50, ../scss/bootsusy.scss */
   .col-lg-1 {
     width: 6.66667%;
     float: left;
@@ -223,7 +264,7 @@
     margin-right: 0.83333%;
   }
 
-  /* line 42, ../scss/bootsusy.scss */
+  /* line 50, ../scss/bootsusy.scss */
   .col-lg-2 {
     width: 15%;
     float: left;
@@ -231,7 +272,7 @@
     margin-right: 0.83333%;
   }
 
-  /* line 42, ../scss/bootsusy.scss */
+  /* line 50, ../scss/bootsusy.scss */
   .col-lg-3 {
     width: 23.33333%;
     float: left;
@@ -239,7 +280,7 @@
     margin-right: 0.83333%;
   }
 
-  /* line 42, ../scss/bootsusy.scss */
+  /* line 50, ../scss/bootsusy.scss */
   .col-lg-4 {
     width: 31.66667%;
     float: left;
@@ -247,7 +288,7 @@
     margin-right: 0.83333%;
   }
 
-  /* line 42, ../scss/bootsusy.scss */
+  /* line 50, ../scss/bootsusy.scss */
   .col-lg-5 {
     width: 40%;
     float: left;
@@ -255,7 +296,7 @@
     margin-right: 0.83333%;
   }
 
-  /* line 42, ../scss/bootsusy.scss */
+  /* line 50, ../scss/bootsusy.scss */
   .col-lg-6 {
     width: 48.33333%;
     float: left;
@@ -263,7 +304,7 @@
     margin-right: 0.83333%;
   }
 
-  /* line 42, ../scss/bootsusy.scss */
+  /* line 50, ../scss/bootsusy.scss */
   .col-lg-7 {
     width: 56.66667%;
     float: left;
@@ -271,7 +312,7 @@
     margin-right: 0.83333%;
   }
 
-  /* line 42, ../scss/bootsusy.scss */
+  /* line 50, ../scss/bootsusy.scss */
   .col-lg-8 {
     width: 65%;
     float: left;
@@ -279,7 +320,7 @@
     margin-right: 0.83333%;
   }
 
-  /* line 42, ../scss/bootsusy.scss */
+  /* line 50, ../scss/bootsusy.scss */
   .col-lg-9 {
     width: 73.33333%;
     float: left;
@@ -287,7 +328,7 @@
     margin-right: 0.83333%;
   }
 
-  /* line 42, ../scss/bootsusy.scss */
+  /* line 50, ../scss/bootsusy.scss */
   .col-lg-10 {
     width: 81.66667%;
     float: left;
@@ -295,7 +336,7 @@
     margin-right: 0.83333%;
   }
 
-  /* line 42, ../scss/bootsusy.scss */
+  /* line 50, ../scss/bootsusy.scss */
   .col-lg-11 {
     width: 90%;
     float: left;
@@ -303,7 +344,7 @@
     margin-right: 0.83333%;
   }
 
-  /* line 42, ../scss/bootsusy.scss */
+  /* line 50, ../scss/bootsusy.scss */
   .col-lg-12 {
     width: 98.33333%;
     float: left;
