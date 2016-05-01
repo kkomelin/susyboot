@@ -1,6 +1,7 @@
 @import "susy";
 @import "variables";
 @import "settings";
+@import "mixins";
 
 // Container class.
 .container {
@@ -21,34 +22,27 @@
 .row {
   margin: 0 $grid-gutter-width * -1 / 2;
 
-  @if $debug {
+  @if $debug == true {
     & > div {
       background-color: rgba(#66f, .25);
     }
   }
 }
 
+// Column classes for extra small screens and up.
+@include add-column-classes('xs', $grid-columns);
+
 // Column classes for small screens and up.
-@for $i from 1 through $grid-columns {
-  .col-sm-#{$i} {
-    @include span($i);
-  }
+@media screen and (min-width: $screen-sm-min) {
+  @include add-column-classes('sm', $grid-columns);
 }
 
 // Column classes for middle screens and up.
 @media screen and (min-width: $screen-md-min) {
-  @for $i from 1 through $grid-columns {
-    .col-md-#{$i} {
-      @include span($i);
-    }
-  }
+  @include add-column-classes('md', $grid-columns);
 }
 
 // Column classes for large screens and up.
 @media screen and (min-width: $screen-lg-min) {
-  @for $i from 1 through $grid-columns {
-    .col-lg-#{$i} {
-      @include span($i);
-    }
-  }
+  @include add-column-classes('lg', $grid-columns);
 }

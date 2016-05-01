@@ -1,0 +1,8 @@
+// Generate group of classes, for example col-md-[n].
+@mixin add-column-classes($class, $grid-columns) {
+  @for $i from 1 through $grid-columns {
+    .col-#{$class}-#{$i} {
+      @include span($i);
+    }
+  }
+}
