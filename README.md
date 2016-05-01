@@ -12,7 +12,8 @@ Features
 - The classes you know and like: 
   - .container 
   - .row 
-  - .col-sm-{n}, .col-md-{n}, .col-lg-{n}
+  - .col-xs-{n}, .col-sm-{n}, .col-md-{n}, .col-lg-{n}
+  - .col-xs-offset-{n}, .col-sm-offset-{n}, .col-md-offset-{n}, .col-lg-offset-{n}
 
 Example
 ---
@@ -21,5 +22,5 @@ See index.html
 Todo:
 ---
 - Fluid grid (.container-fluid)
-- Offsets, pull, push
+- pull, push
 - Pack it into a gem
