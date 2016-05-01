@@ -10,8 +10,8 @@ Features
 ---
 
 - The classes you know and like: 
-  - .container, 
-  - .row, 
+  - .container 
+  - .row 
   - .col-sm-{n}, .col-md-{n}, .col-lg-{n}
 
 Example
