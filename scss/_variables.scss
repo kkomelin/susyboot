@@ -1,0 +1,18 @@
+//** Number of columns in the grid.
+$grid-columns:              12 !default;
+//** Padding between columns. Gets divided in half for the left and right.
+$grid-gutter-width:         30px !default;
+
+//== Media queries breakpoints.
+
+// Small screen / tablet.
+$screen-sm-min:              768px !default;
+
+// Medium screen / desktop.
+$screen-md-min:              992px !default;
+
+// Large screen / wide desktop.
+$screen-lg-min:              1200px !default;
+
+// Debug.
+$debug: true !default;
