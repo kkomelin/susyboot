@@ -26,7 +26,6 @@ Compare output of [test_bootstrap.html](https://github.com/kkomelin/susyboot/blo
 [test_susyboot.html]([https://github.com/kkomelin/susyboot/blob/master/test_susyboot.html]).
 
 Please note that the gutters are different. Read [this note](#note) for more detail.
-because Susy calculates them dynamically and Bootstrap uses a static value (15px).
 
 Roadmap:
 ---
