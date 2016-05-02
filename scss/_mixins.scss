@@ -8,7 +8,7 @@
 @mixin add-column-classes($class, $grid-columns) {
   @for $i from 1 through $grid-columns {
     .col-#{$class}-#{$i} {
-      @include span($i);
+      @include span($i of $grid-columns);
       min-height: 1px;
     }
   }
@@ -19,6 +19,38 @@
   @for $i from 0 through $grid-columns {
     .col-#{$class}-offset-#{$i} {
       @include pre($i of $grid-columns);
+    }
+  }
+}
+
+// Generate pull classes, for example col-md-pull-[n].
+@mixin add-pull-classes($class, $grid-columns) {
+  @for $i from 0 through $grid-columns {
+    @if ($i > 0) {
+      .col-#{$class}-pull-#{$i} {
+        right: percentage(($i / $grid-columns));
+      }
+    }
+    @else if ($i == 0) {
+      .col-#{$class}-pull-0 {
+        right: auto;
+      }
+    }
+  }
+}
+
+// Generate push classes, for example col-md-push-[n].
+@mixin add-push-classes($class, $grid-columns) {
+  @for $i from 0 through $grid-columns {
+    @if ($i > 0) {
+      .col-#{$class}-push-#{$i} {
+        left: percentage(($i / $grid-columns));
+      }
+    }
+    @else if ($i == 0) {
+      .col-#{$class}-push-0 {
+        left: auto;
+      }
     }
   }
 }

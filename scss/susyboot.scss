@@ -43,6 +43,10 @@
 @include add-column-classes('xs', $grid-columns);
 // Offset classes for extra small screens and up.
 @include add-offset-classes('xs', $grid-columns);
+// Pull classes for extra small screens and up.
+@include add-pull-classes('xs', $grid-columns);
+// Push classes for extra small screens and up.
+@include add-push-classes('xs', $grid-columns);
 
 
 @media screen and (min-width: $screen-sm-min) {
@@ -50,6 +54,10 @@
   @include add-column-classes('sm', $grid-columns);
   // Offset classes for small screens and up.
   @include add-offset-classes('sm', $grid-columns);
+  // Pull classes for small screens and up.
+  @include add-pull-classes('sm', $grid-columns);
+  // Push classes for small screens and up.
+  @include add-push-classes('sm', $grid-columns);
 }
 
 @media screen and (min-width: $screen-md-min) {
@@ -57,6 +65,10 @@
   @include add-column-classes('md', $grid-columns);
   // Offset classes for middle screens and up.
   @include add-offset-classes('md', $grid-columns);
+  // Pull classes for middle screens and up.
+  @include add-pull-classes('md', $grid-columns);
+  // Push classes for middle screens and up.
+  @include add-push-classes('md', $grid-columns);
 }
 
 @media screen and (min-width: $screen-lg-min) {
@@ -64,4 +76,8 @@
   @include add-column-classes('lg', $grid-columns);
   // Offset classes for large screens and up.
   @include add-offset-classes('lg', $grid-columns);
+  // Pull classes for large screens and up.
+  @include add-pull-classes('lg', $grid-columns);
+  // Push classes for large screens and up.
+  @include add-push-classes('lg', $grid-columns);
 }
