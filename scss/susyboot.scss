@@ -1,3 +1,5 @@
+// Reset.
+@import "normalize";
 @import "susy";
 @import "variables";
 @import "settings";
@@ -5,7 +7,7 @@
 
 // Container class.
 .container {
-  @include container();
+  @include container;
 
   @media (min-width: $screen-sm-min) {
     @include container($container-sm)
@@ -16,11 +18,13 @@
   @media (min-width: $screen-lg-min) {
     @include container($container-lg)
   }
+  padding: 0 gutter();
 }
 
 // Fluid container.
 .container-fluid {
   @include container();
+  padding: 0 gutter();
 }
 
 // Row class.
@@ -29,7 +33,7 @@
 
   @if $debug == true {
     & > div {
-      @include debug-cell();
+      @include debug-cell;
     }
   }
   @include susy-clearfix;
