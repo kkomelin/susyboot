@@ -459,6 +459,11 @@ th {
 }
 
 /* line 20, ../scss/_mixins.scss */
+.col-xs-offset-0 {
+  margin-left: 0%;
+}
+
+/* line 20, ../scss/_mixins.scss */
 .col-xs-offset-1 {
   margin-left: 8.33333%;
 }
@@ -625,6 +630,11 @@ th {
     padding-left: 0.83333%;
     padding-right: 0.83333%;
     min-height: 1px;
+  }
+
+  /* line 20, ../scss/_mixins.scss */
+  .col-sm-offset-0 {
+    margin-left: 0%;
   }
 
   /* line 20, ../scss/_mixins.scss */
@@ -797,6 +807,11 @@ th {
   }
 
   /* line 20, ../scss/_mixins.scss */
+  .col-md-offset-0 {
+    margin-left: 0%;
+  }
+
+  /* line 20, ../scss/_mixins.scss */
   .col-md-offset-1 {
     margin-left: 8.33333%;
   }
@@ -963,6 +978,11 @@ th {
     padding-left: 0.83333%;
     padding-right: 0.83333%;
     min-height: 1px;
+  }
+
+  /* line 20, ../scss/_mixins.scss */
+  .col-lg-offset-0 {
+    margin-left: 0%;
   }
 
   /* line 20, ../scss/_mixins.scss */

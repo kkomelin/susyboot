@@ -16,7 +16,7 @@
 
 // Generate offset classes, for example col-md-offset-[n].
 @mixin add-offset-classes($class, $grid-columns) {
-  @for $i from 1 through $grid-columns {
+  @for $i from 0 through $grid-columns {
     .col-#{$class}-offset-#{$i} {
       @include pre($i of $grid-columns);
     }

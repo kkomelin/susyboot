@@ -29,7 +29,6 @@ Please note that the gutters are different. Read [this note](#note) for more det
 
 Roadmap
 ---
-- Add offset-0 classes
 - Add pull and push classes
 - Fix nested columns
 - Make the project available as a gem
