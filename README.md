@@ -23,7 +23,7 @@ Features
 Example
 ---
 Compare output of [test_bootstrap.html](https://github.com/kkomelin/susyboot/blob/master/test_bootstrap.html) and
-[test_susyboot.html]([https://github.com/kkomelin/susyboot/blob/master/test_susyboot.html]).
+[test_susyboot.html](https://github.com/kkomelin/susyboot/blob/master/test_susyboot.html).
 
 Please note that the gutters are different. Read [this note](#note) for more detail.
 
