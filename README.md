@@ -8,7 +8,7 @@ Goals
 
 Note
 ---
-It is not an identical replacement because of the differences in calculating gutters.
+It is not a pixel-perfect replacement because of the differences in calculating gutters.
 Gutters have fixed size in Bootstrap (15px). In Susy, they are calculated dynamically.
 
 Features
@@ -22,20 +22,22 @@ Features
 
 Example
 ---
-Compare test_bootstrap.html and test_susyboot.html
+Compare output of [test_bootstrap.html](https://github.com/kkomelin/susyboot/blob/master/test_bootstrap.html) and
+[test_susyboot.html]([https://github.com/kkomelin/susyboot/blob/master/test_susyboot.html]).
 
-Please note that the gutters are different
-because Susy calculates them dynamically and Bootstrap uses static 15px.
+Please note that the gutters are different. Read [this note](#note) for more detail.
+because Susy calculates them dynamically and Bootstrap uses a static value (15px).
 
-Todo:
+Roadmap:
 ---
-- pull, push
-- nested columns
-- Pack it into a gem
+- Add offset-0 classes
+- Add pull and push classes
+- Fix nested columns
+- Make the project available as a gem
 
 Normalize.css
 ---
-For improved cross-browser rendering
-we use the same version of <a href="http://necolas.github.io/normalize.css/" target="_blank">Normalize.css</a>,
-a project by <a href="https://twitter.com/necolas" target="_blank">Nicolas Gallagher</a>
-and <a href="https://twitter.com/jon_neal" target="_blank">Jonathan Neal</a>, which is included in Bootstrap.
+For improved cross-browser rendering,
+we use the same version of [Normalize.css](http://necolas.github.io/normalize.css/),
+a project by [Nicolas Gallagher](https://twitter.com/necolas)
+and [Jonathan Neal](ttps://twitter.com/jon_neal), which is included in Bootstrap.
