@@ -39,4 +39,4 @@ Normalize.css
 For improved cross-browser rendering,
 we use the same version of [Normalize.css](http://necolas.github.io/normalize.css/),
 a project by [Nicolas Gallagher](https://twitter.com/necolas)
-and [Jonathan Neal](ttps://twitter.com/jon_neal), which is included in Bootstrap.
+and [Jonathan Neal](https://twitter.com/jon_neal), which is included in Bootstrap.
