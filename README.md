@@ -27,7 +27,7 @@ Compare output of [test_bootstrap.html](https://github.com/kkomelin/susyboot/blo
 
 Please note that the gutters are different. Read [this note](#note) for more detail.
 
-Roadmap:
+Roadmap
 ---
 - Add offset-0 classes
 - Add pull and push classes
