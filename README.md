@@ -29,6 +29,25 @@ Compare output of [test_bootstrap.html](https://github.com/kkomelin/susyboot/blo
 
 Please note that the gutters are different. Read [this note](#note) for more detail.
 
+How to use
+---
+
+**CSS:**
+
+Just include [susyboot.css](https://github.com/kkomelin/susyboot/blob/master/css/susyboot.css) into your page:
+```
+<link href="css/susyboot.css" type="text/css" rel="stylesheet" media="all" />
+```
+
+**SASS:**
+
+We are planning publishing a Ruby gem in the future.
+For now, simply copy [susyboot.css](https://github.com/kkomelin/susyboot/blob/master/css/susyboot.css) into your sass/scss folder,
+change the extension to **scss** and import as usual:
+```
+@import "susyboot";
+```
+
 Roadmap
 ---
 - Refactoring (code duplication)
