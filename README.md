@@ -42,7 +42,7 @@ Just include [susyboot.css](https://github.com/kkomelin/susyboot/blob/master/css
 **SASS:**
 
 We are planning publishing a Ruby gem in the future.
-For now, simply copy [susyboot.css](https://github.com/kkomelin/susyboot/blob/master/css/susyboot.css) into your sass/scss folder,
+For now, simply copy [susyboot.css](https://github.com/kkomelin/susyboot/blob/master/css/susyboot.css) into your sass or scss folder,
 change the extension to **scss** and import as usual:
 ```
 @import "susyboot";
