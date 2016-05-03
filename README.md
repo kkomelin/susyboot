@@ -4,12 +4,12 @@ Susy-powered Bootstrap grid replacement
 Goals
 ---
 - Provide content managers with the grid classes, which they are familiar with
-- Make the move from Bootstrap 3 to Susy 2 smooth and painless
+- Make the move from Bootstrap 3 grid to Susy 2 grid smooth
 
 Note
 ---
 It is not a pixel-perfect replacement because of the differences in calculating gutters.
-Gutters have fixed size in Bootstrap (15px). In Susy, they are calculated dynamically.
+The gutters have fixed size in Bootstrap (15px). In Susy, they are calculated dynamically.
 
 Features
 ---
@@ -31,7 +31,7 @@ Please note that the gutters are different. Read [this note](#note) for more det
 
 Roadmap
 ---
-- Refactoring
+- Refactoring (code duplication)
 - Fix nested columns margin
 - Make the project available as a gem
 
