@@ -32,7 +32,7 @@ Please note that the gutters are different. Read [this note](#note) for more det
 Roadmap
 ---
 - Refactoring (code duplication)
-- Fix nested columns margin
+- Fix nested column margin
 - Make the project available as a gem
 
 Normalize.css
