@@ -19,6 +19,8 @@ Features
   - .row 
   - .col-xs-{n}, .col-sm-{n}, .col-md-{n}, .col-lg-{n}
   - .col-xs-offset-{n}, .col-sm-offset-{n}, .col-md-offset-{n}, .col-lg-offset-{n}
+  - .col-xs-pull-{n}, .col-sm-pull-{n}, .col-md-pull-{n}, .col-lg-pull-{n}
+  - .col-xs-push-{n}, .col-sm-push-{n}, .col-md-push-{n}, .col-lg-push-{n}
 
 Example
 ---
@@ -29,8 +31,8 @@ Please note that the gutters are different. Read [this note](#note) for more det
 
 Roadmap
 ---
-- Add pull and push classes
-- Fix nested columns
+- Refactoring
+- Fix nested columns margin
 - Make the project available as a gem
 
 Normalize.css

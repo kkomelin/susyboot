@@ -10,6 +10,7 @@
     .col-#{$class}-#{$i} {
       @include span($i of $grid-columns);
       min-height: 1px;
+      position: relative;
     }
   }
 }
