@@ -6,7 +6,7 @@ Susy-powered Bootstrap grid replacement.
 Goals
 ---
 - Provide content managers with the grid classes, which they are familiar with
-- Make the move from Bootstrap 3 grid to Susy 2 grid smooth
+- Make the move from [Bootstrap 3](http://getbootstrap.com/) grid to [Susy 2](http://susy.oddbird.net/) grid smooth
 
 Note
 ---
