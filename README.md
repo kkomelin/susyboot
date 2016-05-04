@@ -1,5 +1,7 @@
 # Susyboot
-Susy-powered Bootstrap grid replacement
+[![Gem Version](https://badge.fury.io/rb/susyboot.svg)](https://badge.fury.io/rb/susyboot)
+
+Susy-powered Bootstrap grid replacement.
 
 Goals
 ---
