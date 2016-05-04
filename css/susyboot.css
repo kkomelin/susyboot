@@ -277,6 +277,12 @@ th {
   display: block;
   clear: both;
 }
+/* line 12, ../../../../home/kon/.rvm/gems/ruby-2.3.0/gems/susy-2.2.12/sass/susy/output/support/_clearfix.scss */
+.container:after {
+  content: " ";
+  display: block;
+  clear: both;
+}
 @media (min-width: 768px) {
   /* line 9, ../scss/susyboot.scss */
   .container {
@@ -320,7 +326,7 @@ th {
   }
 }
 
-/* line 25, ../scss/susyboot.scss */
+/* line 24, ../scss/susyboot.scss */
 .container-fluid {
   max-width: 100%;
   margin-left: auto;
@@ -333,15 +339,16 @@ th {
   display: block;
   clear: both;
 }
+/* line 12, ../../../../home/kon/.rvm/gems/ruby-2.3.0/gems/susy-2.2.12/sass/susy/output/support/_clearfix.scss */
+.container-fluid:after {
+  content: " ";
+  display: block;
+  clear: both;
+}
 
-/* line 31, ../scss/susyboot.scss */
+/* line 29, ../scss/susyboot.scss */
 .row {
   margin: 0 -0.83333%;
-}
-/* line 35, ../scss/susyboot.scss */
-.row > div {
-  background-color: rgba(86, 61, 124, 0.15);
-  border: 1px solid rgba(86, 61, 124, 0.2);
 }
 /* line 12, ../../../../home/kon/.rvm/gems/ruby-2.3.0/gems/susy-2.2.12/sass/susy/output/support/_clearfix.scss */
 .row:after {
