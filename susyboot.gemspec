@@ -13,7 +13,11 @@ Gem::Specification.new do |s|
   s.require_paths   = ["lib"]
   s.files = Dir.glob("lib/*.*")
   s.files += Dir.glob("scss/**/*.*")
-  s.files += ["LICENSE", "README.md", "VERSION"]
+  s.files += ["docs/changelog.rst", "LICENSE", "README.md", "VERSION"]
+
+  # Docs Information
+  s.extra_rdoc_files = ["docs/changelog.rst", "LICENSE", "README.md", "lib/susyboot.rb"]
+  s.rdoc_options = ["--line-numbers", "--inline-source", "--title", "Susyboot", "--main", "README.md"]
 
   s.add_dependency 'sass',      ">= 3.3.0"
   s.add_dependency 'susy',      ">= 2.2.0"
