@@ -41,17 +41,25 @@ Just include [susyboot.css](https://github.com/kkomelin/susyboot/blob/master/css
 
 **SASS:**
 
-We are planning publishing a Ruby gem in the future.
-For now, simply copy [susyboot.css](https://github.com/kkomelin/susyboot/blob/master/css/susyboot.css) into your sass or scss folder,
-change the extension to **scss** and import as usual:
 ```
+# command line
+gem install susyboot
+```
+
+```
+# config.rb
+require 'susyboot'
+```
+
+```
+/* app.scss */
 @import "susyboot";
 ```
 
 Roadmap
 ---
 - Fix nested column margin
-- Make the project available as a gem
+- Add support of npm, composer, and others.
 
 Normalize.css
 ---
