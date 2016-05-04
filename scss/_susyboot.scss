@@ -1,9 +1,9 @@
 // Reset.
-@import "normalize";
+@import "susyboot/normalize";
 @import "susy";
-@import "variables";
-@import "settings";
-@import "mixins";
+@import "susyboot/variables";
+@import "susyboot/settings";
+@import "susyboot/mixins";
 
 // Container class.
 .container {
