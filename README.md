@@ -50,7 +50,6 @@ change the extension to **scss** and import as usual:
 
 Roadmap
 ---
-- Refactoring (code duplication)
 - Fix nested column margin
 - Make the project available as a gem
 
