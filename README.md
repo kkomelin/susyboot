@@ -11,7 +11,7 @@ Goals
 Note
 ---
 It is not a pixel-perfect replacement because of the differences in calculating gutters.
-The gutters have fixed size in Bootstrap (15px). In Susy, they are calculated dynamically.
+The gutters have fixed size in Bootstrap (30px by default). In Susy, they are calculated dynamically.
 
 Features
 ---
