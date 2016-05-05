@@ -36,7 +36,7 @@ How to use
 
 **CSS:**
 
-Just include [susyboot.css](https://github.com/kkomelin/susyboot/blob/master/css/susyboot.css) into your page head:
+Just include [susyboot.css](https://raw.githubusercontent.com/kkomelin/susyboot/master/css/susyboot.css) into your page head:
 
 ```
 <link href="css/susyboot.css" type="text/css" rel="stylesheet" media="all" />
