@@ -1,0 +1,30 @@
+{
+  "name": "susyboot",
+  "version": "0.1.1",
+  "description": "Susy-powered Bootstrap grid replacement.",
+  "author": "Konstantin Komelin <konstantin@komelin.com>",
+  "main": "scss/_susyboot.scss",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:kkomelin/susyboot.git"
+  },
+  "keywords": [
+    "susy",
+    "susy-sass",
+    "bootstrap",
+    "layout",
+    "grid",
+    "sass",
+    "responsive",
+    "rwd",
+    "eyeglass-module"
+  ],
+  "eyeglass": {
+    "exports": "eyeglass-exports.js",
+    "needs": "*"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/kkomelin/susyboot/issues"
+  }
+}

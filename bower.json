@@ -1,0 +1,29 @@
+{
+  "name": "susyboot",
+  "version": "0.1.1",
+  "description": "Susy-powered Bootstrap grid replacement.",
+  "authors": [
+    "Konstantin Komelin <konstantin@komelin.com>"
+  ],
+  "main": "scss/_susyboot.scss",
+  "homepage": "https://github.com/kkomelin/susyboot",
+  "keywords": [
+    "susy",
+    "susy-sass",
+    "bootstrap",
+    "layout",
+    "grid",
+    "sass",
+    "responsive",
+    "rwd"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "docs",
+    "examples",
+    "lib",
+    "*.json",
+    "*.gemspec"
+  ]
+}

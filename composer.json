@@ -1,0 +1,26 @@
+{
+    "name": "kkomelin/susyboot",
+    "description": "Susy-powered Bootstrap grid replacement.",
+    "keywords": [
+        "susy",
+        "susy-sass",
+        "bootstrap",
+        "layout",
+        "grid",
+        "sass",
+        "responsive",
+        "rwd"
+    ],
+    "homepage": "https://github.com/kkomelin/susyboot",
+    "authors": [
+        {
+            "name": "Konstantin Komelin",
+            "email": "konstantin@komelin.com",
+            "homepage": "https://komelin.com"
+        }
+    ],
+    "support": {
+        "issues": "https://github.com/kkomelin/susyboot/issues"
+    },
+    "license": "MIT"
+}

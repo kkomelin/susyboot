@@ -1,0 +1,8 @@
+**/.*
+docs
+bower_components
+node_modules
+lib
+examples
+*.json
+*.gemspec

@@ -24,14 +24,14 @@ Features
   - .col-xs-pull-{n}, .col-sm-pull-{n}, .col-md-pull-{n}, .col-lg-pull-{n}
   - .col-xs-push-{n}, .col-sm-push-{n}, .col-md-push-{n}, .col-lg-push-{n}
 
-Example
+Examples
 ---
-Compare output of [test_bootstrap.html](https://htmlpreview.github.io/?https://raw.githubusercontent.com/kkomelin/susyboot/master/examples/test_bootstrap.html) and
-[test_susyboot.html](https://htmlpreview.github.io/?https://raw.githubusercontent.com/kkomelin/susyboot/master/examples/test_susyboot.html).
+- [Bootstrap](https://htmlpreview.github.io/?https://raw.githubusercontent.com/kkomelin/susyboot/master/examples/test_bootstrap.html) ([source](https://raw.githubusercontent.com/kkomelin/susyboot/master/examples/test_bootstrap.html))
+- [Susyboot](https://htmlpreview.github.io/?https://raw.githubusercontent.com/kkomelin/susyboot/master/examples/test_susyboot.html) ([source](https://raw.githubusercontent.com/kkomelin/susyboot/master/examples/test_susyboot.html))
 
 Please note that the gutters are different. Read [this note](#note) for more detail.
 
-How to use
+Install
 ---
 
 **CSS:**
