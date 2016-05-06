@@ -1,7 +1,6 @@
 Gem::Specification.new do |s|
   s.name            = 'susyboot'
   s.version         = File.read(File.join(File.dirname(__FILE__), "VERSION"))
-  s.date            = '2016-05-04'
   s.summary         = "Susyboot"
   s.description     = "Susy-powered Bootstrap grid replacement."
   s.authors         = ["Konstantin Komelin"]
