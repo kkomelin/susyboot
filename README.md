@@ -3,18 +3,17 @@
 
 Susy-powered Bootstrap grid replacement.
 
-Goals
----
+## Goals
+
 - Provide content managers with the grid classes, which they are familiar with
 - Make the move from [Bootstrap 3](http://getbootstrap.com/) grid to [Susy 2](http://susy.oddbird.net/) grid smooth
 
-Note
----
+## Note
+
 It is not a pixel-perfect replacement because of the differences in calculating gutters.
 The gutters have fixed size in Bootstrap (30px by default). In Susy, they are calculated dynamically.
 
-Features
----
+## Features
 
 - The classes you know and like: 
   - .container, .container-fluid
@@ -24,17 +23,16 @@ Features
   - .col-xs-pull-{n}, .col-sm-pull-{n}, .col-md-pull-{n}, .col-lg-pull-{n}
   - .col-xs-push-{n}, .col-sm-push-{n}, .col-md-push-{n}, .col-lg-push-{n}
 
-Examples
----
+## Examples
+
 - [Bootstrap](https://htmlpreview.github.io/?https://raw.githubusercontent.com/kkomelin/susyboot/master/examples/test_bootstrap.html) ([source](https://raw.githubusercontent.com/kkomelin/susyboot/master/examples/test_bootstrap.html))
 - [Susyboot](https://htmlpreview.github.io/?https://raw.githubusercontent.com/kkomelin/susyboot/master/examples/test_susyboot.html) ([source](https://raw.githubusercontent.com/kkomelin/susyboot/master/examples/test_susyboot.html))
 
 Please note that the gutters are different. Read [this note](#note) for more detail.
 
-Install
----
+## Installation
 
-**CSS:**
+### a) Manual (CSS)
 
 Just include [susyboot.css](https://raw.githubusercontent.com/kkomelin/susyboot/master/css/susyboot.css) into your page head:
 
@@ -42,7 +40,7 @@ Just include [susyboot.css](https://raw.githubusercontent.com/kkomelin/susyboot/
 <link href="css/susyboot.css" type="text/css" rel="stylesheet" media="all" />
 ```
 
-**SASS:**
+### b) Ruby gem (SASS)
 
 ```
 # command line
@@ -59,13 +57,28 @@ require 'susyboot'
 @import "susyboot";
 ```
 
-Roadmap
----
-- Fix nested column margin
-- Add support of npm, composer, and others.
+### c) Composer (CSS)
 
-Normalize.css
----
+Add Susyboot to your project:
+
+```
+php composer.phar require kkomelin/susyboot 0.1.x-dev
+```
+
+Include the main CSS into your template:
+
+```
+<link href="vendor/kkomelin/susyboot/css/susyboot.css" type="text/css" rel="stylesheet" media="all" />
+```
+
+
+## Roadmap
+
+- Fix nested column margin
+- Make the project available through package managers.
+
+## Normalize.css
+
 For improved cross-browser rendering,
 we use the same version of [Normalize.css](http://necolas.github.io/normalize.css/),
 a project by [Nicolas Gallagher](https://twitter.com/necolas)
