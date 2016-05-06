@@ -107,7 +107,7 @@ npm install susyboot
 ## Roadmap
 
 - Fix nested column margin
-- Make the project available through package managers.
+
 
 ## Normalize.css
 
