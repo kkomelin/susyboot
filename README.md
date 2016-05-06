@@ -1,5 +1,8 @@
 # Susyboot
 [![Gem Version](https://badge.fury.io/rb/susyboot.svg)](https://badge.fury.io/rb/susyboot)
+[![npm version](https://badge.fury.io/js/susyboot.svg)](https://badge.fury.io/js/susyboot)
+[![Bower version](https://badge.fury.io/bo/susyboot.svg)](https://badge.fury.io/bo/susyboot)
+[![PHP version](https://badge.fury.io/ph/kkomelin%2Fsusyboot.svg)](https://badge.fury.io/ph/kkomelin%2Fsusyboot)
 
 Susy-powered Bootstrap grid replacement.
 
