@@ -32,7 +32,7 @@ Please note that the gutters are different. Read [this note](#note) for more det
 
 ## Installation
 
-### a) Manual (CSS)
+### a) Manual
 
 Just include [susyboot.css](https://raw.githubusercontent.com/kkomelin/susyboot/master/css/susyboot.css) into your page head:
 
@@ -40,7 +40,7 @@ Just include [susyboot.css](https://raw.githubusercontent.com/kkomelin/susyboot/
 <link href="css/susyboot.css" type="text/css" rel="stylesheet" media="all" />
 ```
 
-### b) Ruby gem (SASS)
+### b) Ruby gem
 
 ```
 # command line
@@ -57,18 +57,36 @@ require 'susyboot'
 @import "susyboot";
 ```
 
-### c) Composer (CSS)
-
-Add Susyboot to your project:
+### c) Composer
 
 ```
+# command line
 php composer.phar require kkomelin/susyboot 0.1.x-dev
 ```
 
-Include the main CSS into your template:
+```
+/* main.tpl.php (html head) */
+<link href="vendor/kkomelin/susyboot/css/susyboot.css" type="text/css" rel="stylesheet" media="all" />
+```
+
+or
 
 ```
-<link href="vendor/kkomelin/susyboot/css/susyboot.css" type="text/css" rel="stylesheet" media="all" />
+/* app.scss */
+@import "vendor/kkomelin/susyboot/scss/susyboot";
+```
+
+
+### d) Bower
+
+```
+# command line
+bower install susyboot --save
+```
+
+```
+/* app.scss */
+@import "bower_components/susyboot/scss/susyboot";
 ```
 
 
