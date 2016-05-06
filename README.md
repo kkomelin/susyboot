@@ -76,7 +76,6 @@ or
 @import "vendor/kkomelin/susyboot/scss/susyboot";
 ```
 
-
 ### d) Bower
 
 ```
@@ -87,6 +86,18 @@ bower install susyboot --save
 ```
 /* app.scss */
 @import "bower_components/susyboot/scss/susyboot";
+```
+
+### e) NPM
+
+```
+# command line
+npm install susyboot
+```
+
+```
+/* app.scss */
+@import "node_modules/susyboot/scss/susyboot";
 ```
 
 

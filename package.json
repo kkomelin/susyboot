@@ -1,8 +1,8 @@
 {
   "name": "susyboot",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "Susy-powered Bootstrap grid replacement.",
-  "author": "Konstantin Komelin <konstantin@komelin.com>",
+  "author": "Konstantin Komelin <konstantin@komelin.com> (http://komelin.com/)",
   "main": "scss/_susyboot.scss",
   "repository": {
     "type": "git",
@@ -26,5 +26,8 @@
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/kkomelin/susyboot/issues"
+  },
+  "dependencies": {
+    "susy": ">= 2.2.0"
   }
 }
